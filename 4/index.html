@@ -1,368 +1,129 @@
-<!DOCTYPE HTML>
-<html>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:svg="http://www.w3.org/2000/svg">
+<!DOCTYPE html>
+<html lang="ru">
+
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
-	<title>Delicious - Restaurant website</title>
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-	<link rel="stylesheet" id="camera-css"  href="css/flexslider.css" type="text/css" media="all">
-	<link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen">
-	<link rel="stylesheet" href="css/grid.css" type="text/css" media="screen">
-	
-	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-	
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/slider/jquery.flexslider-min.js"></script>
-	<script src="js/slider/functions.js" type="text/javascript"></script>
-	<script src="js/slider/script.js" type="text/javascript"></script>
-	<script type="text/javascript" src="js/js.js"></script>
-	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-	<script type="text/javascript" src="js/waypoints.min.js"></script>
-	
-	<!--[if lt IE 9]>
-		<script src="js/html5shiv.js"></script>
-		<script src="js/respond.src.js"></script>
-	<![endif]-->
-	
-	<script type="text/javascript">
-		$(document).ready(function(){	
-			$("#ajax-contact-form").submit(function() {
-				var str = $(this).serialize();		
-				$.ajax({
-					type: "POST",
-					url: "contact_form/contact_process.php",
-					data: str,
-					success: function(msg) {
-						// Message Sent - Show the 'Thank You' message and hide the form
-						if(msg == 'OK') {
-							result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
-							$("#fields").hide();
-						} else {
-							result = msg;
-						}
-						$('#note').html(result);
-					}
-				});
-				return false;
-			});															
-		});		
-	</script>
-	
+
+	<meta charset="utf-8">
+
+	<title>CSS Grid</title>
+	<meta name="description" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
 </head>
 
 <body>
 
-<div class="menu">	
-	<div class="container clearfix">
-
-		<div id="logo" class="fleft">
-			<a href="javascript:void(0);"><img class="logo_big" src="images/logo.png"><img class="logo_small" src="images/logo_small.png"></a>
-		</div>
-		
-		<div id="nav" class="fright">
-			<ul class="navigation">
-				<li data-slide="1">Home</li>
-				<li data-slide="2">About</li>
-				<li data-slide="4">Menu</li>
-				<li data-slide="5">Gallery</li>
-				<li data-slide="6">Events</li>
-				<li data-slide="10">Contact</li>
-			</ul>
-		</div>
-	
-	</div>
-</div>
-
-
-<div class="slide" id="slide1" data-slide="1" data-stellar-background-ratio="0.5">
-	<div class="effect_2 padding_slide1">
-		<div class="container clearfix">
-			<div id="content" class="grid_12">
-				<div class="filtr_bg">
-					<h1>What makes our restaurant special?</h1>
-					<h2>- Our Delicious Food and Your Inspiration</h2>
-					<div class="bord_in_red"></div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quis!</p>
-				</div>
-				<a class="button" title="" data-slide="2">Read More</a>
+	<header class="main-header grid" style="background-image: url(img/0-header.jpg);">
+		<div class="header-content grid">
+			<h1>We are real creators</h1>
+			<div class="header-buttons">
+				<a href="#" class="button">Follow</a>
+				<a href="#" class="button button-gray">Go Home</a>
 			</div>
 		</div>
-	</div>
-</div>
-
-
-
-<div class="slide" id="slide2" data-slide="2" data-stellar-background-ratio="0.5">
-	<div class="container clearfix">
-		
-		<div id="content" class="grid_12">
-			<h1>About</h1>
-			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt assumenda voluptatem, nisi quia. Est laboriosam nobis, distinctio fuga officiis eaque deserunt quas cupiditate recusandae perferendis.</h2>
-			<img class="icon_img" src="images/icon10.png" />
-		</div>
-		<div id="content" class="grid_12">
-			<h4>Who we are?</h4>
-			<img class="about_img" src="images/about_img1.jpg" alt="" />
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus autem labore doloribus omnis. Expedita distinctio ratione, aspernatur beatae. Nihil ex aperiam temporibus, eligendi quisquam consectetur nulla expedita rem optio totam repudiandae tempora aliquam corrupti blanditiis eum veritatis, modi pariatur incidunt? Earum aspernatur provident repellendus labore pariatur, sed sunt nam ipsam!</p>
-		</div>
-	</div>
-</div>
-
-
-
-<div class="slide" id="slide3" data-slide="3" data-stellar-background-ratio="0.5">
-	<div class="effect_2 padding_slide3">
-		<div class="container clearfix">
-		
-			<div id="content" class="grid_12">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-			</div>
-		
-		</div>
-	</div>
-</div>
-
-
-
-<div class="slide" id="slide4" data-slide="4" data-stellar-background-ratio="0.5">
-	<div class="container clearfix">
-		
-		<div id="content" class="grid_12">
-			<h1><span>Menu</span></h1>
-			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam omnis, consequuntur ad molestias laborum unde neque est nostrum sapiente eius vitae, quis atque modi amet hic perferendis alias totam blanditiis.</h2>
-			<img class="icon_img" src="images/icon11.png" />
-			<div class="overflow_hidden">
-				<!-- portfolio_block -->
-				<ul class="item gallery-list">                                  
-					<li class="grid_3">
-						<a href="javascript:void(0);" class="hover_img">
-							<span class="img_bord"><img src="images/img_bord.png" /></span>
-							<img src="images/portfolio/1.jpg" alt="" />
-							<span class="portfolio_descr">
-								<p>Lorem ipsum.</p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-								<span class="more_link" >More</span>
-							</span>
-						</a>
-					</li>
-					<li class="grid_3">
-						<a href="javascript:void(0);" class="hover_img">
-							<span class="img_bord"><img src="images/img_bord.png" /></span>
-							<img src="images/portfolio/2.jpg" alt="" />
-							<span class="portfolio_descr">
-								<p>Lorem ipsum.</p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-								<span class="more_link" >More</span>
-							</span>
-						</a>
-					</li>
-					<li class="grid_3">
-						<a href="javascript:void(0);" class="hover_img">
-							<span class="img_bord"><img src="images/img_bord.png" /></span>
-							<img src="images/portfolio/3.jpg" alt="" />
-							<span class="portfolio_descr">
-								<p>Lorem ipsum.</p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-								<span class="more_link" >More</span>
-							</span>
-						</a>
-					</li>
-					<li class="grid_3">
-						<a href="javascript:void(0);" class="hover_img">
-							<span class="img_bord"><img src="images/img_bord.png" /></span>
-							<img src="images/portfolio/4.jpg" alt="" />
-							<span class="portfolio_descr">
-								<p>Lorem ipsum.</p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-								<span class="more_link" >More</span>
-							</span>
-						</a>
-					</li>
-					<li class="grid_3">
-						<a href="javascript:void(0);" class="hover_img">
-							<span class="img_bord"><img src="images/img_bord.png" /></span>
-							<img src="images/portfolio/5.jpg" alt="" />
-							<span class="portfolio_descr">
-								<p>Lorem ipsum.</p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-								<span class="more_link" >More</span>
-							</span>
-						</a>
-					</li>
-					<li class="grid_3">
-						<a href="javascript:void(0);" class="hover_img">
-							<span class="img_bord"><img src="images/img_bord.png" /></span>
-							<img src="images/portfolio/6.jpg" alt="" />
-							<span class="portfolio_descr">
-								<p>Lorem ipsum.</p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-								<span class="more_link" >More</span>
-							</span>
-						</a>
-					</li>
-					<li class="grid_3">
-						<a href="javascript:void(0);" class="hover_img">
-							<span class="img_bord"><img src="images/img_bord.png" /></span>
-							<img src="images/portfolio/7.jpg" alt="" />
-							<span class="portfolio_descr">
-								<p>Lorem ipsum.</p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-								<span class="more_link" >More</span>
-							</span>
-						</a>
-					</li>
-					<li class="grid_3">
-						<a href="javascript:void(0);" class="hover_img">
-							<span class="img_bord"><img src="images/img_bord.png" /></span>
-							<img src="images/portfolio/8.jpg" alt="" />
-							<span class="portfolio_descr">
-								<p>Lorem ipsum.</p>
-								<span>Lorem ipsum dolor sit amet, consectetur adipisicing.</span>
-								<span class="more_link" >More</span>
-							</span>
-						</a>
-					</li>
-					<div class="clear"></div>
-				</ul>   
-				<!-- //portfolio_block -->   
-			</div>
-			
-		</div>
-	
-	</div>
-</div>
-
-
-<div class="slide" id="slide5" data-slide="5" data-stellar-background-ratio="0.5">
-	<div class="padding_slide5">
-		<div class="bord_top"></div>
-		<div class="effect_2"></div>
-		<div class="container clearfix">
-		
-			<div id="content" class="grid_12">
-				
-			</div>
-			
-		</div>
-		
-		<div class="flexslider">
-			<ul class="slides">
-				<li><img src="images/slider/1.jpg" alt=""/></li>
-				<li><img src="images/slider/2.jpg"  alt=""/></li>
-				<li><img src="images/slider/3.jpg" alt=""/></li>
-				<li><img src="images/slider/4.jpg" alt=""/></li>
-				<li><img src="images/slider/5.jpg"  alt=""/></li>
-				<li><img src="images/slider/6.jpg" alt=""/></li>
-				<li><img src="images/slider/7.jpg" alt=""/></li>
-				<li><img src="images/slider/8.jpg"  alt=""/></li>
-				<li><img src="images/slider/9.jpg" alt=""/></li>
-			</ul>
-		</div>
-		
-	</div>
-</div>
-
-
-
-<div class="slide" id="slide6" data-slide="6" data-stellar-background-ratio="0.5">
-	<div class="container clearfix">
-		
-		<div id="content" class="grid_12">
-			<h1><span>Events</span></h1>
-			<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris in sem non sapien pellentesque malesuada. Pellentesque mattis posuere lorem a luctus. In orci odio, dignissim eget interdum sed, iaculis a dui. Suspendisse ornare rutrum auctor. Donec sit amet sapien id libero</h2>
-			<img class="icon_img" src="images/icon12.png" />
-		</div>
-		<div class="clear"></div>
-		
-		<div class="grid_12 events_cont">
-			<img class="about_img" alt="" src="images/events_img1.jpg">
-			<a href="javascript:void(0);"><h4>Lorem ipsum dolor sit amet.</h4></a>
-			<span>January 1, 2020</span>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas dicta ab dolores quia amet harum ipsa eius sed necessitatibus, cupiditate voluptas, error incidunt nam voluptatibus ea animi omnis deleniti sequi nostrum cum quis! Quasi blanditiis ab distinctio ex a at, facilis provident excepturi in repellat perferendis. Nam facere, aut amet nihil maiores, eius odit iusto earum porro eligendi nesciunt non!</p>
-		</div>
-		<div class="clear"></div>
-		<div class="grid_12 events_cont">
-			<img class="about_img" alt="" src="images/events_img2.jpg">
-			<a href="javascript:void(0);"><h4>Lorem ipsum dolor sit amet, consectetur.</h4></a>
-			<span>January 1, 2020</span>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo esse, eaque recusandae eveniet provident inventore veniam quasi, eos illo soluta numquam maiores accusantium perspiciatis beatae voluptatum fuga fugiat reiciendis unde. Eligendi neque ea, officiis aut modi reiciendis tenetur, minima incidunt consequatur a commodi itaque recusandae nostrum amet quia mollitia. Beatae provident aut impedit, perspiciatis ut explicabo laborum a eum ipsa id similique, dolores nemo ipsum temporibus earum sunt ratione obcaecati esse eaque reprehenderit? Rem dignissimos amet fugiat dolorum cum tenetur perspiciatis impedit facere repudiandae sequi magni ex corporis quod et in accusantium commodi, ducimus minus quibusdam laudantium, quae voluptates doloremque.</p>
-		</div>
-		<div class="clear"></div>
-	
-	</div>
-</div>
-
-
-<div class="slide" id="slide7" data-slide="7" data-stellar-background-ratio="0.5">
-	<div class="effect_2 padding_slide7">
-		<div class="container clearfix">
-		
-			<div id="content" class="grid_12">
-				<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
-			</div>
-		
-		</div>
-	</div>
-</div>
-
-
-
-
-<div class="slide" id="slide10" data-slide="10" data-stellar-background-ratio="0.5">
-	<div class="container clearfix">
-		
-		<div id="content" class="grid_12">
-			<h1><span>Contact</span></h1>
-			<h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta mollitia accusantium sapiente laboriosam facilis cumque voluptate, rem provident cupiditate, eaque deserunt quisquam error quae. Asperiores, animi voluptate corrupti expedita aspernatur.</h2>
-			<img class="icon_img" src="images/icon13.png" />
-		</div>
-		<div class="clear"></div>
-		
-		<div class="grid_3 contact_det_block">
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, velit.</p>
-			<ul class="foot_block_intouch">
-				<li class="touch_phone"><p>(+1) 111 1111 11</p></li>
-				<li class="touch_clock"><p>Mon - Sat 9:00am - 8:00 pm</p></li>
-				<li class="touch_mail"><a href="mailto:support@lorem.com">support@lorem.com</a></li>
-				<li class="touch_site"><a href="javascript:void(0);">www.lorem.com</a></li>
-				<li class="touch_adress"><p>3301 Lorem Ipsum, Dolor Sit Amet St</p></li>
-			</ul>
-		</div>
-		<div class="grid_9 omega">
-			<div class="contact_form">  
-				<div id="note"></div>
-				<div id="fields">
-					<form id="ajax-contact-form" action="">
-						<input type="text" name="name" value="" placeholder="Name" />
-						<input type="text" name="subject" value="" placeholder="Phone" />
-						<input type="text" name="email" value="" placeholder="Email" />
-						<textarea name="message" id="message" placeholder="Message"></textarea>
-						<div class="clear"></div>
-						<input type="reset" class="contact_btn" value="Clear Form" />
-						<input type="submit" class="contact_btn send_btn" value="Send" />
-						<div class="clear"></div>
-					</form>
-				</div>
+	</header>
+	<section class="portfolio-section grid">
+		<div class="portfolio-item grid" style="background-image: url(img/1.jpg)"><span>Glasses</span></div>
+		<div class="portfolio-item grid" style="background-image: url(img/2.jpg)"><span>Macbook</span></div>
+		<div class="portfolio-item grid" style="background-image: url(img/3.jpg)"><span>iMac</span></div>
+		<div class="portfolio-item grid" style="background-image: url(img/4.jpg)"><span>Hacking</span></div>
+		<div class="portfolio-item grid" style="background-image: url(img/5.jpg)"><span>Things</span></div>
+		<div class="portfolio-item grid" style="background-image: url(img/6.jpg)"><span>WorkSpace</span></div>
+		<div class="portfolio-item grid" style="background-image: url(img/7.jpg)"><span>Timer</span></div>
+		<div class="portfolio-item grid" style="background-image: url(img/8.jpg)"><span>Code</span></div>
+		<div class="portfolio-item grid" style="background-image: url(img/9.jpg)"><span>Notebook</span></div>
+	</section>
+	<section class="section-ready landing-section">
+		<div class="container grid">
+			<div class="ready-left">
+				<h2>
+					Are you ready? <br>
+				</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus tempore, odio deserunt quisquam nobis sequi quae saepe cupiditate velit neque aspernatur commodi! Dolorem mollitia quis nostrum similique consectetur, iste libero.</p>
+				<p>Cumque sit, tempore dolor aspernatur temporibus quam aliquam eaque perspiciatis libero eum ut quidem nulla, iusto esse sapiente beatae, laborum modi laudantium distinctio rem velit debitis odio ratione. Impedit, perspiciatis!</p>
+			</div>	
+			<div class="ready-right">
+				<img src="img/example.jpg" alt="" class="img-responsive">
 			</div>
 		</div>
-		<div class="clear"></div>
+	</section>
+	<section class="formsection">
+		<div class="container">
+			<form class="grid">
+				<div> <input type="text" placeholder="Your name:" required=></div>
+				<div> <input type="text" placeholder="Your name:" required=></div>
+				<div> <input type="text" placeholder="Your name:" required=></div>
+				<div><button class="button">Yes, I'm ready!</button></div>
+			</form>
+		</div>
+	</section>
+	<section class="landing-section section-block">
+		<div class="container">
+			<h2>
+				Ready to our Hell Blog?
+			</h2>
+			<div class="blog-home grid">
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/1.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>We are the champions in the last month!</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sint, consequuntur esse blanditiis quis, minima fuga, beatae eaque delectus voluptates nulla fugit.</p>
+					</span>
+				</a>
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/2.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>We are the champions in the last month!</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sint, consequuntur esse blanditiis quis, minima fuga, beatae eaque delectus voluptates nulla fugit.</p>
+					</span>
+				</a>
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/3.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>We are the champions in the last month!</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sint, consequuntur esse blanditiis quis, minima fuga, beatae eaque delectus voluptates nulla fugit.</p>
+					</span>
+				</a>
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/4.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>We are the champions in the last month!</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sint, consequuntur esse blanditiis quis, minima fuga, beatae eaque delectus voluptates nulla fugit.</p>
+					</span>
+				</a>
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/5.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>We are the champions in the last month!</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sint, consequuntur esse blanditiis quis, minima fuga, beatae eaque delectus voluptates nulla fugit.</p>
+					</span>
+				</a>
+				<a href="#" class="blog-item grid">
+					<span class="blog-item-img" style="background-image: url(img/6.jpg);"></span>
+					<span class="blog-item-content grid">
+						<h4>We are the champions in the last month!</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem sint, consequuntur esse blanditiis quis, minima fuga, beatae eaque delectus voluptates nulla fugit.</p>
+					</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<footer class="main-footer">
+		<div class="container">
+			<div class="footer-logo">
+				We Are Real <span>Creators</span>
+			</div>
+			<div class="footer-copy">
+				~©~
+			</div>
+		</div>
+	</footer>
 	
-	</div>
-	
-	<div id="map_block"><iframe width="100%" height="722" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=los+angeles&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=53.080379,114.169922&amp;ie=UTF8&amp;hq=&amp;hnear=Los+Angeles,+California&amp;ll=34.052234,-118.243685&amp;spn=0.003427,0.006968&amp;t=m&amp;z=14&amp;output=embed"></iframe></div>
-	
-</div>
-
-
-<div id="footer">
-	<div class="container clearfix">
-		<div class="copyright">Yummy food &copy; 2020 | <a href="javascript:void(0);">Privacy Policy</a></div>
-		<div id="back_top"><a class="button" title="" data-slide="1">Back to top</a></div>
-	</div>
-</div>
-
+	<link rel="stylesheet" href="css/main.min.css">
+	<script src="js/scripts.min.js"></script>
 
 </body>
 </html>
