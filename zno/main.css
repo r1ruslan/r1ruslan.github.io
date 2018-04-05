@@ -1,0 +1,18 @@
+body {
+	background: url('back2.png') no-repeat center center;
+}
+
+.main-block {
+	text-align: center;
+	margin: 30vh 0;
+}
+h1 {
+	font-size: 58px;
+	color: #F34E5F;
+}
+
+h3 {
+	font-size: 42px;
+	margin-bottom: 20px;
+	color: #6D6F71;
+}
