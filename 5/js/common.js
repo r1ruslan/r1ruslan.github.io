@@ -59,6 +59,12 @@ $(document).ready(function(){
 });
 
 
+$(".toggle-mnu").click(function() {
+		$(this).toggleClass("on");
+		$(".main-mnu").slideToggle();
+		return false;
+	});
+
 // var title = document.getElementsByClassName('accordion-title'),
 // 	cont = document.getElementsByClassName('accordion-cont');
 
