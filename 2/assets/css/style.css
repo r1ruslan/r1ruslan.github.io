@@ -1,5 +1,6 @@
 
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&subset=cyrillic');
 
 * { 
 	margin: 0;
@@ -12,17 +13,24 @@ body {
 	color: #5a5a5a;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h6 {
     font-family: 'Lato', sans-serif;
 	font-weight: 300;
+}
+h3, h5 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+h5 {
+	font-size: 18px;
 }
 
 
 p { 
 	padding: 0; 
 	margin-bottom: 12px; 
-    font-family: 'Lato', sans-serif;
-	font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+	font-weight: 400;
 	font-size: 16px; 
 	line-height: 26px;
 	letter-spacing: 1px;
@@ -122,6 +130,7 @@ input {
 	width: 65%;
 	text-align: left;
 	margin-right: 2px;
+	font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 767px) {
@@ -142,7 +151,7 @@ input {
 .btn-conf {
 	border-radius: 50px;
 	margin-right: 15px;
-	font-size: 11px;
+	font-size: 12px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	padding: 18px 28px 17px 28px;
@@ -151,7 +160,7 @@ input {
 .btn-conf-2 {
 	border-radius: 50px;
 	margin-right: 15px;
-	font-size: 11px;
+	font-size: 12px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	padding: 12px 28px 11px 28px;
@@ -159,20 +168,24 @@ input {
 	}	
 
 .btn-green {
-	background: #03C9A9;
-	color: white
+	background: #fddd34 ;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}
+.btn-green:hover {
+	color: white;
 }
 
 /* HEADER SECTION */
 #h {
-	background: url(../img/header.jpg) no-repeat center top;
+	background: url(../img/sep.jpg) no-repeat center top;
 	padding-top: 180px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	color: white;
+	color: #fddd34;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -188,15 +201,15 @@ input {
 #h .logo {
 	top: 30px;
 	left: 45px;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: 900;
-	position:absolute; 
+	position: absolute; 
 }
 
 #h .social {
 	top: 30px;
 	right: 45px;
-	font-size: 20px;
+	font-size: 24px;
 	position: absolute;
 }
 
@@ -205,13 +218,16 @@ input {
 }
 
 #h .social a {
-	color: white;
+	color: #fddd34;
 }
 
 #h h1 {
 	font-weight: 700;
 	color: white;
 	font-size: 40px;
+}
+#h h6 {
+	text-transform: uppercase;
 }
 
 /* Store Links */
@@ -222,7 +238,7 @@ input {
 
 /* SEP */
 #sep {
-	background: url(../img/sep.jpg) no-repeat center top;
+	background: url(../img/header3.jpg) no-repeat center top;
 	padding-top: 90px;
 	text-align:center;
 	background-attachment: relative;
@@ -250,7 +266,7 @@ input {
 
 /* Pricing Tables */
 .price-table {
-	border: 2px solid #5a5a5a;
+	border: 2px solid  #fddd34;
 	border-radius: 25px;
 	padding-top: 15px;
 	padding-bottom: 25px;
@@ -263,7 +279,7 @@ input {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	line-height: 80px;
-	border-bottom: 2px solid #ccc;
+	border-bottom: 2px solid #fddd34;
 }
 
 .price-table .p-body .features li {
@@ -309,20 +325,20 @@ ul {
 .sponsor .col-sm-2 {
 	height: 80px;
 	line-height: 80px;
+	cursor:  pointer;
 }
 
 /* GREEN SECTION - TESTIMONIAL */
 
 #green {
-	padding-top: 90px;
+	padding-top: 60px;
 	padding-bottom: 60px;
 	min-height: 300px;
-	background: #03C9A9;
+	background: #E9C34E;
 	color: white;
 }
 
 #green tgr {
-	font-weight: 700;
 	letter-spacing: 1px;
 }
 
@@ -337,6 +353,10 @@ ul {
 #f h5 {
 	margin-top: 30px;
 	letter-spacing: 1px;
+	font-weight: 700;
+}
+#f h6 {
+	color: #fddd34;
 }
 
 #f i {
@@ -349,5 +369,5 @@ ul {
 }
 
 #f a:hover {
-	color: #03C9A9;
+	color: #fddd34;
 }
