@@ -28,7 +28,7 @@ $(".toggle-mnu").click(function() {
 //     };
 // });
 
-if ($(window).width() >= 768) {
+if ($(window).width() >= 992) {
    var rellax = new Rellax('.rellax');
 }
 
