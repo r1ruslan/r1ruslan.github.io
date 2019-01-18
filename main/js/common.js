@@ -84,26 +84,52 @@ $(function(){
 		$('#modal-window-5').fadeOut(300);
 	});
 });
-
 $(function(){
 	$('#modal-trigger-6').click(function(){
+		$('#modal-window-6').fadeIn(300);
+	});
+	$('.close').click(function(){
+		$('#modal-window-6').fadeOut(300);
+	});
+});
+
+$(function(){
+	$('#modal-trigger-info').click(function(){
+		$('#modal-window-info').fadeIn(300);
+	});
+	$('.close').click(function(){
+		$('#modal-window-info').fadeOut(300);
+	});
+});
+
+$(function(){
+	$('#modal-trigger-1-toinfo').click(function(){
 		$('#modal-window-1').fadeOut(300);
-		$('#modal-window-5').fadeIn(300);
+		$('#modal-window-info').fadeIn(300);
 	});
-	$('#modal-trigger-7').click(function(){
+	$('#modal-trigger-2-toinfo').click(function(){
 		$('#modal-window-2').fadeOut(300);
-		$('#modal-window-5').fadeIn(300);
+		$('#modal-window-info').fadeIn(300);
 	});
-	$('#modal-trigger-8').click(function(){
+	$('#modal-trigger-3-toinfo').click(function(){
 		$('#modal-window-3').fadeOut(300);
-		$('#modal-window-5').fadeIn(300);
+		$('#modal-window-info').fadeIn(300);
 	});
-	$('#modal-trigger-9').click(function(){
+	$('#modal-trigger-4-toinfo').click(function(){
 		$('#modal-window-4').fadeOut(300);
-		$('#modal-window-5').fadeIn(300);
+		$('#modal-window-info').fadeIn(300);
 	});
-	$('#modal-trigger-10').click(function(){
+	$('#modal-trigger-5-toinfo').click(function(){
 		$('#modal-window-5').fadeOut(300);
+		$('#modal-window-info').fadeIn(300);
+	});
+	$('#modal-trigger-6-toinfo').click(function(){
+		$('#modal-window-6').fadeOut(300);
+		$('#modal-window-info').fadeIn(300);
+	});
+
+	$('#modal-trigger-post').click(function(){
+		$('#modal-window-info').fadeOut(300);
 	});
 })
 
@@ -128,5 +154,3 @@ $(function(){
 			// Use EasyZoom's `swap` method
 			api.swap($this.data("standard"), $this.attr("href"));
 		});
-
-
