@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ishop/static/css/main.0c5c67db.chunk.css",
+    "main.js": "/ishop/static/js/main.251de46f.chunk.js",
+    "main.js.map": "/ishop/static/js/main.251de46f.chunk.js.map",
+    "runtime~main.js": "/ishop/static/js/runtime~main.03ba53f4.js",
+    "runtime~main.js.map": "/ishop/static/js/runtime~main.03ba53f4.js.map",
+    "static/css/2.4615749f.chunk.css": "/ishop/static/css/2.4615749f.chunk.css",
+    "static/js/2.132cf4d9.chunk.js": "/ishop/static/js/2.132cf4d9.chunk.js",
+    "static/js/2.132cf4d9.chunk.js.map": "/ishop/static/js/2.132cf4d9.chunk.js.map",
+    "index.html": "/ishop/index.html",
+    "precache-manifest.7ae3b09b13d3afb75e1fa415b660bb74.js": "/ishop/precache-manifest.7ae3b09b13d3afb75e1fa415b660bb74.js",
+    "service-worker.js": "/ishop/service-worker.js",
+    "static/css/2.4615749f.chunk.css.map": "/ishop/static/css/2.4615749f.chunk.css.map",
+    "static/css/main.0c5c67db.chunk.css.map": "/ishop/static/css/main.0c5c67db.chunk.css.map",
+    "static/media/product-item.css": "/ishop/static/media/favs.54d5cd8e.png"
+  }
+}
