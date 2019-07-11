@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/new-project/static/css/main.233099db.chunk.css",
+    "main.js": "/new-project/static/js/main.ba87009c.chunk.js",
+    "main.js.map": "/new-project/static/js/main.ba87009c.chunk.js.map",
+    "runtime~main.js": "/new-project/static/js/runtime~main.4c28f756.js",
+    "runtime~main.js.map": "/new-project/static/js/runtime~main.4c28f756.js.map",
+    "static/css/2.d8fd75e1.chunk.css": "/new-project/static/css/2.d8fd75e1.chunk.css",
+    "static/js/2.4ee7dd06.chunk.js": "/new-project/static/js/2.4ee7dd06.chunk.js",
+    "static/js/2.4ee7dd06.chunk.js.map": "/new-project/static/js/2.4ee7dd06.chunk.js.map",
+    "index.html": "/new-project/index.html",
+    "precache-manifest.65799c49f9b77401350b40a89439dd90.js": "/new-project/precache-manifest.65799c49f9b77401350b40a89439dd90.js",
+    "service-worker.js": "/new-project/service-worker.js",
+    "static/css/2.d8fd75e1.chunk.css.map": "/new-project/static/css/2.d8fd75e1.chunk.css.map",
+    "static/css/main.233099db.chunk.css.map": "/new-project/static/css/main.233099db.chunk.css.map",
+    "static/media/categories.sass": "/new-project/static/media/pulse.17f73bfc.svg",
+    "static/media/selected.sass": "/new-project/static/media/cancel.7a4c4ed3.svg",
+    "static/media/sidebar.sass": "/new-project/static/media/filter-results-button.73836597.svg",
+    "static/media/header.sass": "/new-project/static/media/shopping-cart.3e949994.svg",
+    "static/media/home.svg": "/new-project/static/media/home.8cd7042e.svg",
+    "static/media/item-page.sass": "/new-project/static/media/right-arrow.fdcb51e4.svg",
+    "static/media/search-panel.sass": "/new-project/static/media/search.2e54ebb5.svg",
+    "static/media/verified.svg": "/new-project/static/media/verified.5524fc35.svg"
+  }
+}
