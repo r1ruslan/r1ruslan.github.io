@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "28da44c8643cd26784b298cdcb819360",
+    "revision": "a9313b82e83c7276b1e9cb7b0ed65266",
     "url": "/new-project/index.html"
   },
   {
-    "revision": "ae8adf2b301134d94cfd",
+    "revision": "9edee56711821386ee5a",
     "url": "/new-project/static/css/2.d8fd75e1.chunk.css"
   },
   {
-    "revision": "4d0f63af2dd369c53cc4",
-    "url": "/new-project/static/css/main.233099db.chunk.css"
+    "revision": "7c488985b4879b96351f",
+    "url": "/new-project/static/css/main.0dd5b449.chunk.css"
   },
   {
-    "revision": "ae8adf2b301134d94cfd",
-    "url": "/new-project/static/js/2.4ee7dd06.chunk.js"
+    "revision": "9edee56711821386ee5a",
+    "url": "/new-project/static/js/2.d144ebde.chunk.js"
   },
   {
-    "revision": "4d0f63af2dd369c53cc4",
-    "url": "/new-project/static/js/main.ba87009c.chunk.js"
+    "revision": "7c488985b4879b96351f",
+    "url": "/new-project/static/js/main.687ca6a9.chunk.js"
   },
   {
     "revision": "c0c3d5003c70a07487a5",
@@ -38,6 +38,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7a4c4ed3e537d3fb59c7decd495bfec7",
     "url": "/new-project/static/media/cancel.7a4c4ed3.svg"
+  },
+  {
+    "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
+    "url": "/new-project/static/media/error-hover.b2138751.svg"
+  },
+  {
+    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
+    "url": "/new-project/static/media/error.35a6ccb5.svg"
   },
   {
     "revision": "7383659795c68de83bffa23eeb597c55",
@@ -64,16 +72,40 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/new-project/static/media/laptop.c28374a2.svg"
   },
   {
-    "revision": "df1a2837564c41c62d81e635a377d368",
-    "url": "/new-project/static/media/like.df1a2837.svg"
+    "revision": "d654ce194e0660d047d6913124f8d562",
+    "url": "/new-project/static/media/like-hover.d654ce19.svg"
+  },
+  {
+    "revision": "23a8ee8895c12e7cd02c05edfed0f598",
+    "url": "/new-project/static/media/like.23a8ee88.svg"
+  },
+  {
+    "revision": "b187e9beb63979302595e1e2d0b11c2b",
+    "url": "/new-project/static/media/minus-hover.b187e9be.svg"
+  },
+  {
+    "revision": "c62e1b2f372b7863f1a2adbf895f105c",
+    "url": "/new-project/static/media/minus.c62e1b2f.svg"
   },
   {
     "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
     "url": "/new-project/static/media/monitor.0bfccc50.svg"
   },
   {
+    "revision": "311313cded0dc23bba479b786ac0aad8",
+    "url": "/new-project/static/media/plus-hover.311313cd.svg"
+  },
+  {
+    "revision": "ed718a5fe4c2c476c20d3e21a9f22868",
+    "url": "/new-project/static/media/plus.ed718a5f.svg"
+  },
+  {
     "revision": "17f73bfcf766880dbb41f2102286b20a",
     "url": "/new-project/static/media/pulse.17f73bfc.svg"
+  },
+  {
+    "revision": "1cd816467e466a7c45addd167b3246fc",
+    "url": "/new-project/static/media/right-arrow-long.1cd81646.svg"
   },
   {
     "revision": "fdcb51e4ca34b88215666fe26d301307",
