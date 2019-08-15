@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "7a4c4ed3e537d3fb59c7decd495bfec7",
-    "url": "/new-project/static/media/cancel.7a4c4ed3.svg"
+    "revision": "3e94999488846da168efbcd9eb7ed8c7",
+    "url": "/new-project/static/media/shopping-cart.3e949994.svg"
   },
   {
-    "revision": "4d039af65bfc1f9e73d8",
-    "url": "/new-project/static/css/main.9b076415.chunk.css"
+    "revision": "79722c5ac1d588048db2",
+    "url": "/new-project/static/css/main.b9d9fa48.chunk.css"
   },
   {
     "revision": "c0c3d5003c70a07487a5",
@@ -36,20 +36,20 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/minus-hover.b187e9be.svg"
   },
   {
-    "revision": "ed718a5fe4c2c476c20d3e21a9f22868",
-    "url": "/new-project/static/media/plus.ed718a5f.svg"
-  },
-  {
     "revision": "311313cded0dc23bba479b786ac0aad8",
     "url": "/new-project/static/media/plus-hover.311313cd.svg"
+  },
+  {
+    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
+    "url": "/new-project/static/media/error.35a6ccb5.svg"
   },
   {
     "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
     "url": "/new-project/static/media/error-hover.b2138751.svg"
   },
   {
-    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
-    "url": "/new-project/static/media/error.35a6ccb5.svg"
+    "revision": "ed718a5fe4c2c476c20d3e21a9f22868",
+    "url": "/new-project/static/media/plus.ed718a5f.svg"
   },
   {
     "revision": "d654ce194e0660d047d6913124f8d562",
@@ -60,20 +60,20 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/like.23a8ee88.svg"
   },
   {
-    "revision": "4d039af65bfc1f9e73d8",
-    "url": "/new-project/static/js/main.d52ce677.chunk.js"
+    "revision": "7a4c4ed3e537d3fb59c7decd495bfec7",
+    "url": "/new-project/static/media/cancel.7a4c4ed3.svg"
   },
   {
-    "revision": "1788ec3653421ad20663f03079fad49e",
-    "url": "/new-project/static/media/heart.1788ec36.svg"
+    "revision": "79722c5ac1d588048db2",
+    "url": "/new-project/static/js/main.4fd11cf3.chunk.js"
   },
   {
     "revision": "1cd816467e466a7c45addd167b3246fc",
     "url": "/new-project/static/media/right-arrow-long.1cd81646.svg"
   },
   {
-    "revision": "3e94999488846da168efbcd9eb7ed8c7",
-    "url": "/new-project/static/media/shopping-cart.3e949994.svg"
+    "revision": "1788ec3653421ad20663f03079fad49e",
+    "url": "/new-project/static/media/heart.1788ec36.svg"
   },
   {
     "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
@@ -112,6 +112,10 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/cancel-small.96d77809.svg"
   },
   {
+    "revision": "74ba9ca404f8cbaa10f7d1b5e53153ff",
+    "url": "/new-project/static/media/left-arrow.74ba9ca4.svg"
+  },
+  {
     "revision": "fdcb51e4ca34b88215666fe26d301307",
     "url": "/new-project/static/media/right-arrow.fdcb51e4.svg"
   },
@@ -120,7 +124,7 @@ self.__precacheManifest = [
     "url": "/new-project/static/css/2.1ad0838a.chunk.css"
   },
   {
-    "revision": "7705b30b1c57a80e9889a1c51ec11835",
+    "revision": "8b2ba92d0f3e75ce869b092f507fd17d",
     "url": "/new-project/index.html"
   }
 ];
