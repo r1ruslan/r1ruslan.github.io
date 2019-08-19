@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "3e94999488846da168efbcd9eb7ed8c7",
-    "url": "/new-project/static/media/shopping-cart.3e949994.svg"
+    "revision": "1788ec3653421ad20663f03079fad49e",
+    "url": "/new-project/static/media/heart.1788ec36.svg"
   },
   {
-    "revision": "79722c5ac1d588048db2",
-    "url": "/new-project/static/css/main.b9d9fa48.chunk.css"
+    "revision": "b966370bbddefb27ca4d",
+    "url": "/new-project/static/css/main.92a273c8.chunk.css"
   },
   {
     "revision": "c0c3d5003c70a07487a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/home.8cd7042e.svg"
   },
   {
-    "revision": "6404e5e2a12d14a8f4f6",
-    "url": "/new-project/static/js/2.0b969dd2.chunk.js"
+    "revision": "df23abed10c31f23ba13",
+    "url": "/new-project/static/js/2.92803027.chunk.js"
   },
   {
     "revision": "5524fc35552c821bb2412410674efede",
@@ -36,6 +36,10 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/minus-hover.b187e9be.svg"
   },
   {
+    "revision": "ed718a5fe4c2c476c20d3e21a9f22868",
+    "url": "/new-project/static/media/plus.ed718a5f.svg"
+  },
+  {
     "revision": "311313cded0dc23bba479b786ac0aad8",
     "url": "/new-project/static/media/plus-hover.311313cd.svg"
   },
@@ -46,10 +50,6 @@ self.__precacheManifest = [
   {
     "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
     "url": "/new-project/static/media/error-hover.b2138751.svg"
-  },
-  {
-    "revision": "ed718a5fe4c2c476c20d3e21a9f22868",
-    "url": "/new-project/static/media/plus.ed718a5f.svg"
   },
   {
     "revision": "d654ce194e0660d047d6913124f8d562",
@@ -64,24 +64,20 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/cancel.7a4c4ed3.svg"
   },
   {
-    "revision": "79722c5ac1d588048db2",
-    "url": "/new-project/static/js/main.4fd11cf3.chunk.js"
+    "revision": "b966370bbddefb27ca4d",
+    "url": "/new-project/static/js/main.8725a256.chunk.js"
+  },
+  {
+    "revision": "3e94999488846da168efbcd9eb7ed8c7",
+    "url": "/new-project/static/media/shopping-cart.3e949994.svg"
   },
   {
     "revision": "1cd816467e466a7c45addd167b3246fc",
     "url": "/new-project/static/media/right-arrow-long.1cd81646.svg"
   },
   {
-    "revision": "1788ec3653421ad20663f03079fad49e",
-    "url": "/new-project/static/media/heart.1788ec36.svg"
-  },
-  {
     "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
     "url": "/new-project/static/media/iphone.6e72882c.svg"
-  },
-  {
-    "revision": "c28374a285074b6fce742e5868f91128",
-    "url": "/new-project/static/media/laptop.c28374a2.svg"
   },
   {
     "revision": "b1f0a0d022cee20cfac100ec72a56623",
@@ -94,6 +90,10 @@ self.__precacheManifest = [
   {
     "revision": "17f73bfcf766880dbb41f2102286b20a",
     "url": "/new-project/static/media/pulse.17f73bfc.svg"
+  },
+  {
+    "revision": "c28374a285074b6fce742e5868f91128",
+    "url": "/new-project/static/media/laptop.c28374a2.svg"
   },
   {
     "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
@@ -120,11 +120,11 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/right-arrow.fdcb51e4.svg"
   },
   {
-    "revision": "6404e5e2a12d14a8f4f6",
+    "revision": "df23abed10c31f23ba13",
     "url": "/new-project/static/css/2.1ad0838a.chunk.css"
   },
   {
-    "revision": "8b2ba92d0f3e75ce869b092f507fd17d",
+    "revision": "01b72a7b98316c63badf466059e00668",
     "url": "/new-project/index.html"
   }
 ];
