@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/laptop.c28374a2.svg"
   },
   {
-    "revision": "227715eb57d899b6fd7a",
-    "url": "/new-project/static/css/main.b00b72f7.chunk.css"
+    "revision": "3989761861bdb212188d",
+    "url": "/new-project/static/css/main.87c86827.chunk.css"
   },
   {
     "revision": "c0c3d5003c70a07487a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/home.8cd7042e.svg"
   },
   {
-    "revision": "2e9e67825dc3d8b25fda",
-    "url": "/new-project/static/js/2.bb7e56d2.chunk.js"
+    "revision": "dafb45337c42ba344c7f",
+    "url": "/new-project/static/js/2.25b3a677.chunk.js"
   },
   {
     "revision": "5524fc35552c821bb2412410674efede",
@@ -44,12 +44,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/plus-hover.311313cd.svg"
   },
   {
-    "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
-    "url": "/new-project/static/media/error-hover.b2138751.svg"
-  },
-  {
     "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
     "url": "/new-project/static/media/error.35a6ccb5.svg"
+  },
+  {
+    "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
+    "url": "/new-project/static/media/error-hover.b2138751.svg"
   },
   {
     "revision": "d654ce194e0660d047d6913124f8d562",
@@ -76,12 +76,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/right-arrow-long.1cd81646.svg"
   },
   {
-    "revision": "227715eb57d899b6fd7a",
-    "url": "/new-project/static/js/main.275dd173.chunk.js"
-  },
-  {
     "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
     "url": "/new-project/static/media/iphone.6e72882c.svg"
+  },
+  {
+    "revision": "3989761861bdb212188d",
+    "url": "/new-project/static/js/main.c00200b6.chunk.js"
   },
   {
     "revision": "b1f0a0d022cee20cfac100ec72a56623",
@@ -108,8 +108,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/filter-results-button.73836597.svg"
   },
   {
-    "revision": "96d77809c709bafe257a723fbc313ed7",
-    "url": "/new-project/static/media/cancel-small.96d77809.svg"
+    "revision": "b87e136d587da00b769592458bfe9f21",
+    "url": "/new-project/static/media/cancel-small.b87e136d.svg"
+  },
+  {
+    "revision": "05f20866acde2f16587c6990df4f7056",
+    "url": "/new-project/static/media/cancel-hover.05f20866.svg"
   },
   {
     "revision": "5f825358756da0cff69e37afbbe430c0",
@@ -148,11 +152,11 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/right-arrow.fdcb51e4.svg"
   },
   {
-    "revision": "2e9e67825dc3d8b25fda",
+    "revision": "dafb45337c42ba344c7f",
     "url": "/new-project/static/css/2.1ad0838a.chunk.css"
   },
   {
-    "revision": "b87a1d40ebb17f7b23c4507bcabbd467",
+    "revision": "b393599a473b0af85ef49a50e472a51d",
     "url": "/new-project/index.html"
   }
 ];
