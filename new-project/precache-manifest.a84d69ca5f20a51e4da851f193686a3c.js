@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c28374a285074b6fce742e5868f91128",
-    "url": "/new-project/static/media/laptop.c28374a2.svg"
+    "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
+    "url": "/new-project/static/media/iphone.6e72882c.svg"
   },
   {
-    "revision": "3989761861bdb212188d",
-    "url": "/new-project/static/css/main.87c86827.chunk.css"
+    "revision": "12226a8dbb61f5f05d8b",
+    "url": "/new-project/static/css/main.dbb95837.chunk.css"
   },
   {
     "revision": "c0c3d5003c70a07487a5",
@@ -40,16 +40,16 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/plus.ed718a5f.svg"
   },
   {
-    "revision": "311313cded0dc23bba479b786ac0aad8",
-    "url": "/new-project/static/media/plus-hover.311313cd.svg"
-  },
-  {
     "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
     "url": "/new-project/static/media/error.35a6ccb5.svg"
   },
   {
     "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
     "url": "/new-project/static/media/error-hover.b2138751.svg"
+  },
+  {
+    "revision": "311313cded0dc23bba479b786ac0aad8",
+    "url": "/new-project/static/media/plus-hover.311313cd.svg"
   },
   {
     "revision": "d654ce194e0660d047d6913124f8d562",
@@ -76,16 +76,16 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/right-arrow-long.1cd81646.svg"
   },
   {
-    "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
-    "url": "/new-project/static/media/iphone.6e72882c.svg"
-  },
-  {
-    "revision": "3989761861bdb212188d",
-    "url": "/new-project/static/js/main.c00200b6.chunk.js"
-  },
-  {
     "revision": "b1f0a0d022cee20cfac100ec72a56623",
     "url": "/new-project/static/media/apple-watch.b1f0a0d0.svg"
+  },
+  {
+    "revision": "12226a8dbb61f5f05d8b",
+    "url": "/new-project/static/js/main.24318359.chunk.js"
+  },
+  {
+    "revision": "c28374a285074b6fce742e5868f91128",
+    "url": "/new-project/static/media/laptop.c28374a2.svg"
   },
   {
     "revision": "41321034d1eb1e68aaea5ac8eec2b757",
@@ -96,12 +96,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/pulse.17f73bfc.svg"
   },
   {
-    "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
-    "url": "/new-project/static/media/monitor.0bfccc50.svg"
-  },
-  {
     "revision": "2b0fabd6f12bd59a18f5e5b125920a46",
     "url": "/new-project/static/media/cable.2b0fabd6.svg"
+  },
+  {
+    "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
+    "url": "/new-project/static/media/monitor.0bfccc50.svg"
   },
   {
     "revision": "7383659795c68de83bffa23eeb597c55",
@@ -156,7 +156,7 @@ self.__precacheManifest = [
     "url": "/new-project/static/css/2.1ad0838a.chunk.css"
   },
   {
-    "revision": "b393599a473b0af85ef49a50e472a51d",
+    "revision": "088ba6f891536ab6908bb74e93710646",
     "url": "/new-project/index.html"
   }
 ];
