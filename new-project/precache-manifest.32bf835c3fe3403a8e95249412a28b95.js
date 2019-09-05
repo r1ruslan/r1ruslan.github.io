@@ -4,20 +4,20 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/pulse.17f73bfc.svg"
   },
   {
-    "revision": "7af0a24545fdfd93bb95",
-    "url": "/new-project/static/css/main.7d37326f.chunk.css"
+    "revision": "7530218c02d46c0a87fe",
+    "url": "/new-project/static/css/main.7b7dcd08.chunk.css"
   },
   {
     "revision": "c0c3d5003c70a07487a5",
     "url": "/new-project/static/js/runtime~main.4c28f756.js"
   },
   {
-    "revision": "84a3ffb675b3e473b0c7e22216585b18",
-    "url": "/new-project/static/media/delete.84a3ffb6.svg"
+    "revision": "c55b39ed8ceac633e4a4e27f34d15ff9",
+    "url": "/new-project/static/media/delete-hover.c55b39ed.svg"
   },
   {
-    "revision": "df9dbb8e3db1929b2ead",
-    "url": "/new-project/static/js/2.22a01e80.chunk.js"
+    "revision": "dd78d2ec158625f1f29d",
+    "url": "/new-project/static/js/2.2bd6c7a5.chunk.js"
   },
   {
     "revision": "2e54ebb5b46883c017e19527bccc535f",
@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/minus-hover.b187e9be.svg"
   },
   {
-    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
-    "url": "/new-project/static/media/error.35a6ccb5.svg"
-  },
-  {
     "revision": "311313cded0dc23bba479b786ac0aad8",
     "url": "/new-project/static/media/plus-hover.311313cd.svg"
+  },
+  {
+    "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
+    "url": "/new-project/static/media/error.35a6ccb5.svg"
   },
   {
     "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
@@ -56,24 +56,20 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/like.23a8ee88.svg"
   },
   {
-    "revision": "1788ec3653421ad20663f03079fad49e",
-    "url": "/new-project/static/media/heart.1788ec36.svg"
+    "revision": "7a4c4ed3e537d3fb59c7decd495bfec7",
+    "url": "/new-project/static/media/cancel.7a4c4ed3.svg"
   },
   {
-    "revision": "3e94999488846da168efbcd9eb7ed8c7",
-    "url": "/new-project/static/media/shopping-cart.3e949994.svg"
+    "revision": "1788ec3653421ad20663f03079fad49e",
+    "url": "/new-project/static/media/heart.1788ec36.svg"
   },
   {
     "revision": "1cd816467e466a7c45addd167b3246fc",
     "url": "/new-project/static/media/right-arrow-long.1cd81646.svg"
   },
   {
-    "revision": "7a4c4ed3e537d3fb59c7decd495bfec7",
-    "url": "/new-project/static/media/cancel.7a4c4ed3.svg"
-  },
-  {
-    "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
-    "url": "/new-project/static/media/iphone.6e72882c.svg"
+    "revision": "3e94999488846da168efbcd9eb7ed8c7",
+    "url": "/new-project/static/media/shopping-cart.3e949994.svg"
   },
   {
     "revision": "c28374a285074b6fce742e5868f91128",
@@ -84,12 +80,16 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/apple-watch.b1f0a0d0.svg"
   },
   {
+    "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
+    "url": "/new-project/static/media/iphone.6e72882c.svg"
+  },
+  {
     "revision": "41321034d1eb1e68aaea5ac8eec2b757",
     "url": "/new-project/static/media/headphones.41321034.svg"
   },
   {
-    "revision": "7af0a24545fdfd93bb95",
-    "url": "/new-project/static/js/main.16cae885.chunk.js"
+    "revision": "7530218c02d46c0a87fe",
+    "url": "/new-project/static/js/main.b757743a.chunk.js"
   },
   {
     "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
@@ -108,12 +108,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/verified.5524fc35.svg"
   },
   {
-    "revision": "05f20866acde2f16587c6990df4f7056",
-    "url": "/new-project/static/media/cancel-hover.05f20866.svg"
-  },
-  {
     "revision": "b87e136d587da00b769592458bfe9f21",
     "url": "/new-project/static/media/cancel-small.b87e136d.svg"
+  },
+  {
+    "revision": "05f20866acde2f16587c6990df4f7056",
+    "url": "/new-project/static/media/cancel-hover.05f20866.svg"
   },
   {
     "revision": "5f825358756da0cff69e37afbbe430c0",
@@ -160,19 +160,19 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/info.eb4c5cca.svg"
   },
   {
-    "revision": "c55b39ed8ceac633e4a4e27f34d15ff9",
-    "url": "/new-project/static/media/delete-hover.c55b39ed.svg"
+    "revision": "84a3ffb675b3e473b0c7e22216585b18",
+    "url": "/new-project/static/media/delete.84a3ffb6.svg"
   },
   {
     "revision": "ee6f56d1aed93e81b9dd0cb6fbef6ffb",
     "url": "/new-project/static/media/edit.ee6f56d1.svg"
   },
   {
-    "revision": "df9dbb8e3db1929b2ead",
+    "revision": "dd78d2ec158625f1f29d",
     "url": "/new-project/static/css/2.1ad0838a.chunk.css"
   },
   {
-    "revision": "915ec6dcbb22c2803746ef33cc34c4e7",
+    "revision": "665bc6c937d0ed432701c39639fe5748",
     "url": "/new-project/index.html"
   }
 ];
