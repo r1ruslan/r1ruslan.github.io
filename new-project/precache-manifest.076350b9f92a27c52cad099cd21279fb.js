@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/pulse.17f73bfc.svg"
   },
   {
-    "revision": "1219ac1fecc07e47bf9b",
-    "url": "/new-project/static/css/main.cfc89712.chunk.css"
+    "revision": "e31f0d7c7940d54bdfdf",
+    "url": "/new-project/static/css/main.d56d59ab.chunk.css"
   },
   {
     "revision": "c0c3d5003c70a07487a5",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/delete-hover.c55b39ed.svg"
   },
   {
-    "revision": "da1939e7f9cfb6d9fa59",
-    "url": "/new-project/static/js/2.d522d20d.chunk.js"
+    "revision": "988530d00b51da345bf7",
+    "url": "/new-project/static/js/2.ac54f455.chunk.js"
   },
   {
     "revision": "2e54ebb5b46883c017e19527bccc535f",
@@ -72,12 +72,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/cancel.7a4c4ed3.svg"
   },
   {
-    "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
-    "url": "/new-project/static/media/iphone.6e72882c.svg"
-  },
-  {
     "revision": "c28374a285074b6fce742e5868f91128",
     "url": "/new-project/static/media/laptop.c28374a2.svg"
+  },
+  {
+    "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
+    "url": "/new-project/static/media/iphone.6e72882c.svg"
   },
   {
     "revision": "b1f0a0d022cee20cfac100ec72a56623",
@@ -88,16 +88,16 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/headphones.41321034.svg"
   },
   {
-    "revision": "1219ac1fecc07e47bf9b",
-    "url": "/new-project/static/js/main.08ac2a94.chunk.js"
-  },
-  {
-    "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
-    "url": "/new-project/static/media/monitor.0bfccc50.svg"
+    "revision": "e31f0d7c7940d54bdfdf",
+    "url": "/new-project/static/js/main.4133d459.chunk.js"
   },
   {
     "revision": "2b0fabd6f12bd59a18f5e5b125920a46",
     "url": "/new-project/static/media/cable.2b0fabd6.svg"
+  },
+  {
+    "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
+    "url": "/new-project/static/media/monitor.0bfccc50.svg"
   },
   {
     "revision": "7383659795c68de83bffa23eeb597c55",
@@ -168,11 +168,11 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/delete.84a3ffb6.svg"
   },
   {
-    "revision": "da1939e7f9cfb6d9fa59",
-    "url": "/new-project/static/css/2.1ad0838a.chunk.css"
+    "revision": "988530d00b51da345bf7",
+    "url": "/new-project/static/css/2.67d31dd2.chunk.css"
   },
   {
-    "revision": "a38efe2c7a85503b8778c609090e72f1",
+    "revision": "e863ff95e9ba9ab9acf7566aa8505894",
     "url": "/new-project/index.html"
   }
 ];
