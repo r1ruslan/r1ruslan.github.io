@@ -1,11 +1,9 @@
-
-@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700,900);
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap&subset=cyrillic');
 
 * { 
 	margin: 0;
 	padding: 0px;
-    font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 } 
 body { 
 	background: #fff; 
@@ -14,27 +12,27 @@ body {
 }
 
 h1, h2, h4, h6 {
-    font-family: 'Lato', sans-serif;
-	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 }
+
 h3, h5 {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 300;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
 }
+
 h5 {
 	font-size: 18px;
 }
 
-
 p { 
 	padding: 0; 
-	margin-bottom: 12px; 
-    font-family: 'Roboto', sans-serif;
+	margin-bottom: 12px;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 16px; 
 	line-height: 26px;
-	letter-spacing: 1px;
-	color: #666; 
+	color: #666;
 	margin-top: 10px; 
 }
 
@@ -116,7 +114,7 @@ input {
 	min-height: 40px;
 	border-radius: 25px;
 	line-height: 20px;
-	padding: 15px 30px 16px;
+	padding: 14px 30px;
 	border: 1px solid #b9b9af;
 	margin-bottom: 10px;
 	background-color: #fff;
@@ -130,7 +128,7 @@ input {
 	width: 65%;
 	text-align: left;
 	margin-right: 2px;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 767px) {
@@ -154,7 +152,7 @@ input {
 	font-size: 12px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	padding: 18px 28px 17px 28px;
+	padding: 14px 28px 14px 28px;
 	}
 
 .btn-conf-2 {
@@ -165,15 +163,22 @@ input {
 	text-transform: uppercase;
 	padding: 12px 28px 11px 28px;
 	margin-top: 20px;
+	margin-bottom: 40px;
 	}	
 
 .btn-green {
-	background: #fddd34 ;
+	background: #fddd34;
 	color: black;
-	font-family: 'Roboto', sans-serif;
+	transition: all .3s ease;
+	font-family: 'Open Sans', sans-serif;
 }
 .btn-green:hover {
 	color: white;
+	background: #ffdb00;
+}
+
+h4 {
+	line-height: 24px;
 }
 
 /* HEADER SECTION */
@@ -195,7 +200,6 @@ input {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
 }
 
 #h .logo {
@@ -239,7 +243,7 @@ input {
 /* SEP */
 #sep {
 	background: url(../img/header3.jpg) no-repeat center top;
-	padding-top: 90px;
+	padding-top: 50px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -258,9 +262,13 @@ input {
     background-size: cover;
 }
 
+#sep h1 {
+	font-weight: 600;
+	font-size: 36px;
+}
+
 #sep h4 {
-	letter-spacing: 1px;
-	line-height: 30px;
+	line-height: 28px;
 	margin-top: 30px;
 }
 
@@ -287,7 +295,7 @@ input {
 	border-bottom: 2px solid #ccc;
 	padding: 24px 0px;
 	margin: 0;
-	letter-spacing: 1px;
+	letter-spacing: 0.8px;
 }
 
 .p-body .price .detail {
