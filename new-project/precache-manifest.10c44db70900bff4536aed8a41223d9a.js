@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "add86d91436736a87668",
+    "revision": "ebdb553d717cc0b2ff57",
     "url": "/new-project/static/css/main.dbb72fd9.chunk.css"
   },
   {
-    "revision": "add86d91436736a87668",
-    "url": "/new-project/static/js/main.ea2c612d.chunk.js"
+    "revision": "ebdb553d717cc0b2ff57",
+    "url": "/new-project/static/js/main.b3aa252d.chunk.js"
   },
   {
     "revision": "c0c3d5003c70a07487a5",
@@ -40,12 +40,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/plus-hover.311313cd.svg"
   },
   {
-    "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
-    "url": "/new-project/static/media/error-hover.b2138751.svg"
-  },
-  {
     "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
     "url": "/new-project/static/media/error.35a6ccb5.svg"
+  },
+  {
+    "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
+    "url": "/new-project/static/media/error-hover.b2138751.svg"
   },
   {
     "revision": "d654ce194e0660d047d6913124f8d562",
@@ -56,28 +56,20 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/like.23a8ee88.svg"
   },
   {
-    "revision": "3e94999488846da168efbcd9eb7ed8c7",
-    "url": "/new-project/static/media/shopping-cart.3e949994.svg"
+    "revision": "7a4c4ed3e537d3fb59c7decd495bfec7",
+    "url": "/new-project/static/media/cancel.7a4c4ed3.svg"
   },
   {
     "revision": "1788ec3653421ad20663f03079fad49e",
     "url": "/new-project/static/media/heart.1788ec36.svg"
   },
   {
-    "revision": "7a4c4ed3e537d3fb59c7decd495bfec7",
-    "url": "/new-project/static/media/cancel.7a4c4ed3.svg"
+    "revision": "3e94999488846da168efbcd9eb7ed8c7",
+    "url": "/new-project/static/media/shopping-cart.3e949994.svg"
   },
   {
     "revision": "1cd816467e466a7c45addd167b3246fc",
     "url": "/new-project/static/media/right-arrow-long.1cd81646.svg"
-  },
-  {
-    "revision": "b1f0a0d022cee20cfac100ec72a56623",
-    "url": "/new-project/static/media/apple-watch.b1f0a0d0.svg"
-  },
-  {
-    "revision": "41321034d1eb1e68aaea5ac8eec2b757",
-    "url": "/new-project/static/media/headphones.41321034.svg"
   },
   {
     "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
@@ -88,12 +80,20 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/laptop.c28374a2.svg"
   },
   {
-    "revision": "17f73bfcf766880dbb41f2102286b20a",
-    "url": "/new-project/static/media/pulse.17f73bfc.svg"
+    "revision": "b1f0a0d022cee20cfac100ec72a56623",
+    "url": "/new-project/static/media/apple-watch.b1f0a0d0.svg"
   },
   {
     "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
     "url": "/new-project/static/media/monitor.0bfccc50.svg"
+  },
+  {
+    "revision": "17f73bfcf766880dbb41f2102286b20a",
+    "url": "/new-project/static/media/pulse.17f73bfc.svg"
+  },
+  {
+    "revision": "41321034d1eb1e68aaea5ac8eec2b757",
+    "url": "/new-project/static/media/headphones.41321034.svg"
   },
   {
     "revision": "2b0fabd6f12bd59a18f5e5b125920a46",
@@ -156,12 +156,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/home.8cd7042e.svg"
   },
   {
-    "revision": "84a3ffb675b3e473b0c7e22216585b18",
-    "url": "/new-project/static/media/delete.84a3ffb6.svg"
-  },
-  {
     "revision": "eb4c5cca1fd05e011cfca945fc3dafa4",
     "url": "/new-project/static/media/info.eb4c5cca.svg"
+  },
+  {
+    "revision": "84a3ffb675b3e473b0c7e22216585b18",
+    "url": "/new-project/static/media/delete.84a3ffb6.svg"
   },
   {
     "revision": "ee6f56d1aed93e81b9dd0cb6fbef6ffb",
@@ -172,7 +172,7 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/delete-hover.c55b39ed.svg"
   },
   {
-    "revision": "990e57d97d1b4228c68450390bd5aa24",
+    "revision": "77a3a913763eb5352a65c758e638d6bd",
     "url": "/new-project/index.html"
   }
 ];
