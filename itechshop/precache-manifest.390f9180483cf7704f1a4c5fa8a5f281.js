@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "ebdb553d717cc0b2ff57",
-    "url": "/new-project/static/css/main.dbb72fd9.chunk.css"
+    "revision": "8b2ecdb0384d4d7968ec",
+    "url": "/new-project/static/css/main.70bafa50.chunk.css"
   },
   {
-    "revision": "ebdb553d717cc0b2ff57",
-    "url": "/new-project/static/js/main.b3aa252d.chunk.js"
+    "revision": "8b2ecdb0384d4d7968ec",
+    "url": "/new-project/static/js/main.88335fc2.chunk.js"
   },
   {
     "revision": "c0c3d5003c70a07487a5",
     "url": "/new-project/static/js/runtime~main.4c28f756.js"
   },
   {
-    "revision": "c9dcd7512e9c77c96124",
-    "url": "/new-project/static/css/2.4b61d91f.chunk.css"
+    "revision": "a6c1bad274821f53b79e",
+    "url": "/new-project/static/css/2.c926b9a5.chunk.css"
   },
   {
-    "revision": "c9dcd7512e9c77c96124",
-    "url": "/new-project/static/js/2.3e8e9dde.chunk.js"
+    "revision": "a6c1bad274821f53b79e",
+    "url": "/new-project/static/js/2.82ea7b71.chunk.js"
   },
   {
     "revision": "2e54ebb5b46883c017e19527bccc535f",
@@ -32,16 +32,16 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/minus-hover.b187e9be.svg"
   },
   {
-    "revision": "ed718a5fe4c2c476c20d3e21a9f22868",
-    "url": "/new-project/static/media/plus.ed718a5f.svg"
-  },
-  {
     "revision": "311313cded0dc23bba479b786ac0aad8",
     "url": "/new-project/static/media/plus-hover.311313cd.svg"
   },
   {
     "revision": "35a6ccb5ed555dd6c31878ae02c9fd0d",
     "url": "/new-project/static/media/error.35a6ccb5.svg"
+  },
+  {
+    "revision": "ed718a5fe4c2c476c20d3e21a9f22868",
+    "url": "/new-project/static/media/plus.ed718a5f.svg"
   },
   {
     "revision": "b2138751ec3c40bb5c24fcea41aaff9d",
@@ -72,32 +72,36 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/right-arrow-long.1cd81646.svg"
   },
   {
-    "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
-    "url": "/new-project/static/media/iphone.6e72882c.svg"
+    "revision": "8cd7042e33bf1da77558bf25f92c7480",
+    "url": "/new-project/static/media/home.8cd7042e.svg"
   },
   {
     "revision": "c28374a285074b6fce742e5868f91128",
     "url": "/new-project/static/media/laptop.c28374a2.svg"
   },
   {
-    "revision": "b1f0a0d022cee20cfac100ec72a56623",
-    "url": "/new-project/static/media/apple-watch.b1f0a0d0.svg"
-  },
-  {
-    "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
-    "url": "/new-project/static/media/monitor.0bfccc50.svg"
-  },
-  {
-    "revision": "17f73bfcf766880dbb41f2102286b20a",
-    "url": "/new-project/static/media/pulse.17f73bfc.svg"
+    "revision": "6e72882cf30c7f10ecbcd3817b81ac4f",
+    "url": "/new-project/static/media/iphone.6e72882c.svg"
   },
   {
     "revision": "41321034d1eb1e68aaea5ac8eec2b757",
     "url": "/new-project/static/media/headphones.41321034.svg"
   },
   {
+    "revision": "b1f0a0d022cee20cfac100ec72a56623",
+    "url": "/new-project/static/media/apple-watch.b1f0a0d0.svg"
+  },
+  {
+    "revision": "17f73bfcf766880dbb41f2102286b20a",
+    "url": "/new-project/static/media/pulse.17f73bfc.svg"
+  },
+  {
     "revision": "2b0fabd6f12bd59a18f5e5b125920a46",
     "url": "/new-project/static/media/cable.2b0fabd6.svg"
+  },
+  {
+    "revision": "0bfccc507904a5aa51f3cb6ab4bf6759",
+    "url": "/new-project/static/media/monitor.0bfccc50.svg"
   },
   {
     "revision": "7383659795c68de83bffa23eeb597c55",
@@ -108,12 +112,12 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/verified.5524fc35.svg"
   },
   {
-    "revision": "b87e136d587da00b769592458bfe9f21",
-    "url": "/new-project/static/media/cancel-small.b87e136d.svg"
-  },
-  {
     "revision": "05f20866acde2f16587c6990df4f7056",
     "url": "/new-project/static/media/cancel-hover.05f20866.svg"
+  },
+  {
+    "revision": "b87e136d587da00b769592458bfe9f21",
+    "url": "/new-project/static/media/cancel-small.b87e136d.svg"
   },
   {
     "revision": "5f825358756da0cff69e37afbbe430c0",
@@ -152,16 +156,8 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/right-arrow.fdcb51e4.svg"
   },
   {
-    "revision": "8cd7042e33bf1da77558bf25f92c7480",
-    "url": "/new-project/static/media/home.8cd7042e.svg"
-  },
-  {
     "revision": "eb4c5cca1fd05e011cfca945fc3dafa4",
     "url": "/new-project/static/media/info.eb4c5cca.svg"
-  },
-  {
-    "revision": "84a3ffb675b3e473b0c7e22216585b18",
-    "url": "/new-project/static/media/delete.84a3ffb6.svg"
   },
   {
     "revision": "ee6f56d1aed93e81b9dd0cb6fbef6ffb",
@@ -172,7 +168,11 @@ self.__precacheManifest = [
     "url": "/new-project/static/media/delete-hover.c55b39ed.svg"
   },
   {
-    "revision": "77a3a913763eb5352a65c758e638d6bd",
+    "revision": "84a3ffb675b3e473b0c7e22216585b18",
+    "url": "/new-project/static/media/delete.84a3ffb6.svg"
+  },
+  {
+    "revision": "ae12c4c0dcd2634d69b7f4d4c6e78cf2",
     "url": "/new-project/index.html"
   }
 ];
