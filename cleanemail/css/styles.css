@@ -112,6 +112,9 @@ button.main-btn {
   transition: all .5s ease; }
   button.main-btn:hover {
     background: #3d61e2; }
+  @media screen and (max-width: 600px) {
+    button.main-btn {
+      width: 100%; } }
 
 .rating-block {
   display: flex;

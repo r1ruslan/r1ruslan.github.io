@@ -112,6 +112,9 @@ button.main-btn {
   transition: all .5s ease; }
   button.main-btn:hover {
     background: #3d61e2; }
+  @media screen and (max-width: 600px) {
+    button.main-btn {
+      width: 100%; } }
 
 .rating-block {
   display: flex;
@@ -535,7 +538,12 @@ button.main-btn {
           left: 307px; } }
   @media screen and (max-width: 600px) {
     .cta-section .inner-cta {
-      padding: 0; } }
+      padding: 0; }
+    .cta-section .cta-block {
+      margin: 0;
+      padding: 0 32px;
+      width: 100%;
+      max-width: unset; } }
   @media screen and (max-width: 480px) {
     .cta-section .images-block .mail-2-icon {
       left: -10px;
@@ -845,7 +853,7 @@ footer {
           margin-right: 0; } }
   @media screen and (max-width: 380px) {
     footer {
-      padding: 72px 16px 0; } }
+      padding: 72px 32px 0; } }
 
 .mobile-title {
   display: none; }
