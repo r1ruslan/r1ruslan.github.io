@@ -548,8 +548,7 @@ button.main-btn {
 
 .there-more-section {
   text-align: center;
-  margin-top: 88px;
-  margin-bottom: 132px; }
+  margin-top: 88px; }
   .there-more-section .common-text {
     max-width: 543px;
     margin: 8px auto 56px; }
@@ -592,7 +591,10 @@ button.main-btn {
   .there-more-section .comments-block {
     display: flex;
     justify-content: flex-end;
-    margin: 72px -32px 0 32px; }
+    margin: 0 0 0 32px;
+    padding-bottom: 132px;
+    padding-top: 72px;
+    overflow-x: hidden; }
     .there-more-section .comments-block .comment {
       width: 376px;
       height: 237px;
@@ -605,7 +607,8 @@ button.main-btn {
       .there-more-section .comments-block .comment:nth-child(1) {
         margin-top: 52px; }
       .there-more-section .comments-block .comment:nth-child(3) {
-        margin-top: 52px; }
+        margin-top: 52px;
+        margin-right: 0; }
       .there-more-section .comments-block .comment p {
         margin-top: 10px;
         line-height: 26px;
@@ -642,10 +645,10 @@ button.main-btn {
       justify-content: center; } }
   @media screen and (max-width: 900px) {
     .there-more-section {
-      margin-bottom: 72px; }
+      margin-bottom: 0; }
       .there-more-section .comments-block {
         margin-left: 0;
-        margin-top: 36px; }
+        padding-top: 36px; }
         .there-more-section .comments-block .comment {
           margin: 16px 10px; }
           .there-more-section .comments-block .comment:nth-child(1), .there-more-section .comments-block .comment:nth-child(3) {
@@ -653,13 +656,15 @@ button.main-btn {
   @media screen and (max-width: 720px) {
     .there-more-section {
       margin-top: 48px;
-      margin-bottom: 48px; }
+      margin-bottom: 0; }
       .there-more-section .common-text {
         margin: 8px auto 40px; }
       .there-more-section .features-block .feature-block {
         margin: 16px 32px; }
-      .there-more-section .comments-block .comment {
-        margin: 16px 32px; } }
+      .there-more-section .comments-block {
+        padding-bottom: 48px; }
+        .there-more-section .comments-block .comment {
+          margin: 16px 32px; } }
   @media screen and (max-width: 600px) {
     .there-more-section .common-text {
       margin: 8px 16px 40px; }
