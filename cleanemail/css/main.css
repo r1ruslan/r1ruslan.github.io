@@ -630,14 +630,14 @@ button.main-btn {
       padding: 24px 32px; } }
   @media screen and (max-width: 1230px) {
     .there-more-section .comments-block {
-      justify-content: flex-end; }
-      .there-more-section .comments-block .comment:nth-child(1) {
-        margin-top: 0; } }
-  @media screen and (max-width: 1130px) {
+      justify-content: flex-end; } }
+  @media screen and (max-width: 1170px) {
     .there-more-section .comments-block {
       margin-right: 0;
       justify-content: center;
       flex-wrap: wrap; }
+      .there-more-section .comments-block .comment:nth-child(1) {
+        margin-top: 0; }
     .there-more-section .features-block {
       justify-content: center; } }
   @media screen and (max-width: 900px) {
