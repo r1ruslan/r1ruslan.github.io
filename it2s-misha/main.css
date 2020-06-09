@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');
+
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin-top: ;
+	margin-right: ;
+
+}
+
+header {
+	background: lightblue;
+}
+h3 {
+	/*color: red;*/
+	color: #ff6666;
+	font-size: 24px;
+}
+
+}
+
+ol li {
+	font-family: 16px;
+	line-height: 20px;
+	line-height: 1.5;
+}
+
+.form-section {
+	background: #eeeeee;
+}
+
+.subscribe {
+	background:  red;
+	color: white;
+}
+.orange-rectangle {
+	width: 300px;
+	height: 200px;
+	background: orange;
+	border: 2px dashed #111;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	margin: 10px 0;
+
+}
+.orange-circle {
+	width: 50px;
+	height: 100px;
+	background: orange;
+	border: 2px solid #111111;
+	border-radius: 50%;
+	display: none;	
+}
+
+.inner-rectangle {
+	width: 200px;
+	height: 100px;
+	background: blue;
+
+}
+
+input {
+	padding-left: 5px;
+}
+
+
+.header-nav ul {
+	padding-left: 0;
+}
+.header-nav ul li{
+	display: none;
+	margin: 10px 15px;
+}
+
+.header-nav ul li a {
+	color: #111;
+	text-decoration: underline;
+	transition: all 0.3s ease;
+}
+
+.header-nav ul li a:hover {
+	text-decoration: underline;
+	color: #111;
+}
+
+.header-nav ul {
+	list-style-type: square;
+}
+
+.main-form {
+	width: 400px;
+	margin: 0 auto;
+	border: 1px solid #111;
+	padding: 20px;
+}
+
+.main-form label {
+	display: block;
+}
+
+.main-form label input {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	font-size: 14px:
+	border-radius: 4px;
+	border: 1px solid #ccc;
+	margin-top: 5px;
+}
+.main-form label textarea {
+	width:  100%;
+}
+
+.main-form button {
+	width: 100%;
+	height: 35px;
+	background: #33cc33;
+	color: #fff;
+	font-size:  16px:
+	border: none;
+	border-radius: 4px;
+}
+
+.relative-section {
+	position: relative;
+}
+
+.red-circle {
+	background: red;
+	border-color: white;
+	position:  absolute;
+}
+
+.blue-circle 

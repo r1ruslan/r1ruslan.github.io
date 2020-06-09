@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap&subset=cyrillic');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+
+	/*margin: 10px (отступы со всех сторон)*/
+	/*margin: 10px 15px (первое - сверху и снизу, а второе - по бокам)*/
+	/*margin: 10px 15px 20px (первое - это отступ сверху, второе - по бокам, и третье - снизу */
+	/*margin: 10px 15px 20px 25px (сверху, справа, снизу, слева - по часовой стрелке)*/
+
+	margin: 20px 15px;
+}
+
+
+.section-section{
+	position:absolute;
+}
+
+h3 {
+	color: blue;
+	color: #ff6666;
+	font-size: 24px;
+}
+
+ol li {
+	font-size: 16px;
+	line-height: 20px;
+	line-height: 1.5;
+
+}
+
+h1{
+	margin-left:44%;
+	margin-top:-20px;
+	position:fixed;
+}
+
+.img{
+	margin-left:px;
+	margin-top:90px;
+}
+
+.immg{
+	margin-left:115.2%;
+	margin-top:-30%;
+}
+
+.audio{
+	margin-top:-190px;
+}
+
+.form-section {
+	background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.subscribe {
+	background: red;
+	color: white;
+	font-size: 14px;
+	font-weight: 700;
+	width: 150px;
+	height: 30px;
+	border-radius: 4px;
+	border: none;
+}
+
+
+
+.inner-rectangle {
+	width: 200px;
+	height: 100px;
+	background: blue;
+}
+
+input {
+	padding-left: 5px;
+}
+
+.header-nav ul {
+	padding-left: 0;
+}
+
+.header-nav ul li {
+/*	display: none; */
+	display: inline-block;
+	margin: 10px 15px;
+}
+
+.header-nav ul li a {
+	color: #454456;
+	text-decoration: none;
+	transition: all .3s ease; 
+}
+
+.header-nav ul li a:hover {
+	text-decoration: underline;
+	color: #454456;
+}
+
+
+.footer{
+	margin-top:400px;
+}
+
+.square-elements li {
+	list-style-type: square;
+}
+
+
+
+.background-imege-section{
+	width:101.2%;
+	height:100vh;
+	max-height:1000px;
+	background:url("https://i.ytimg.com/vi/OXuIqaeg0SI/maxresdefault.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+.from-section{
+	margin-left:-15px;
+}
+
+
+
+
+
+
