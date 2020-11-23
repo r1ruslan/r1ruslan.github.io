@@ -15,7 +15,88 @@
   <link rel="stylesheet" href="css/main.min.css">
   <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 </head>
+
+  <style>
+    .new-overlay {
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+      background: #1e1e1e;
+      display: flex;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 100;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    .new-overlay h2 {
+      font-size: 42px;
+    }
+    .main-btn-wrapper {
+      height: 71px;
+      background: #c29c32;
+      border-radius: 15px 15px 10px 10px;
+      min-width: 360px;
+      width: 360px;
+      transition: all 0.3s ease-in-out;
+      position: relative;
+      cursor: pointer;
+    }
+    .main-btn-wrapper .main-btn {
+      background: #f5c53f;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      border-radius: 15px 15px 10px 10px;
+      min-width: 360px;
+      height: 66px;
+      transition: all 0.3s ease-in-out;
+      padding: 0 20px;
+      cursor: pointer;
+      text-align: center;
+      border: none;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    .main-btn-wrapper:hover {
+      background: #ae8c2d;
+      top: 1px;
+    }
+    .main-btn-wrapper:hover .main-btn {
+      background-color: #f4be27;
+    }
+    @media screen and (max-width: 600px) {
+      .main-btn-wrapper {
+        min-width: unset;
+        width: 94%;
+        height: 61px;
+      }
+      .main-btn-wrapper .main-btn {
+        width: 100%;
+        min-width: 100%;
+        font-size: 18px;
+        height: 56px;
+      }
+    }
+    html, body {
+      overflow: hidden;
+    }
+  </style>
 <body>
+
+
+
+  <div class="new-overlay">
+    <h2>Новый сайт:</h2>
+    <a class="main-btn-wrapper" id="modal-footer" href="https://r1ruslan.com.ua">
+      <button class="main-btn">r1ruslan.com.ua</button>
+    </a>
+  </div>
+
   <header>
     <div class="main-head">
       <div class="container">
